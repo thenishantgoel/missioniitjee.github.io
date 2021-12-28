@@ -1,7 +1,6 @@
 * {
     border: 0px;
     margin: 0%;
-    
     font-family: Courgette, cursive;
 }
 
@@ -38,14 +37,12 @@
     grid-template-columns: repeat(2, 1fr);
     padding:2em 2em 2.5em 2em;
     gap:2em 2em ;
-    /* height: 100vh; */
-    /* width:max-content; */
 }
 
 
 iframe{
-    width: 390px;
-    height: 200px;
+    width: 410px;
+    height: 230px;
 }
 
 .home{
