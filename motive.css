@@ -200,9 +200,7 @@ ol {
         grid-template-columns: repeat(1, 1fr);
         gap:2em 2em ;
     }
-    a{
-        color: red;
-    }
+    
     
     
 }
@@ -230,7 +228,5 @@ ol {
         padding-left: 18px;
         font-size: 1.7em;
     }
-    a{
-        color: red;
-    }
+    
 }
