@@ -30,6 +30,19 @@
  z-index:99;
  color:white;
 }
+#watermark3{
+    position: fixed;
+    bottom: 5px;
+    left: 0px;
+    margin-left:0 ;
+    z-index: 98;
+    opacity:0.6;
+    height: 36px;
+    width: 38px;
+}
+#watermark3:hover{
+    opacity: 1;
+}
 .Rcontainer{
     display: grid;
     grid-auto-rows: minmax(100px, auto);
@@ -227,6 +240,10 @@ ol {
     ol{
         padding-left: 18px;
         font-size: 1.7em;
+    }
+    #watermark3{
+        height: 28px;
+        width: 32px;
     }
     
 }
