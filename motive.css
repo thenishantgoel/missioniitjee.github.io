@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
 #watermark1
 {
  position:fixed;
@@ -51,7 +52,9 @@
     padding:2em 2em 2.5em 2em;
     gap:2em 2em ;
 }
-
+ul{
+    list-style-type: disc;
+}
 
 iframe{
     width: 410px;
@@ -63,6 +66,12 @@ iframe{
     height: 1cm;
     float: left;
     padding: 8px 8px 8px 8px;
+}
+.target{
+    width: 1.5cm;
+    height: 1.5cm;
+    float: right;
+    padding: 0px 5px 0px 0x;
 }
 
 a {
@@ -108,15 +117,6 @@ body{
 
     /* background-size: contain; */
 }
-
-h1 {
-    font-family: Shizuru;
-    text-align: center;
-    font-size: 35px;
-    /* text-decoration:underline; */
-    color: white;
-}
-
 #sec1 {
     padding: 10px 10px 10px 10px;
     border-bottom: .15cm;
@@ -130,6 +130,18 @@ h1 {
     margin-left: .8px;
     margin-right: 1px;
 }
+
+h1 {
+    font-family: Shizuru;
+    display:inline;
+    float: inline-end;
+    font-size: 35px;
+    text-align: center;
+    /* text-decoration:underline; */
+    color: white;
+    padding-left: 14em;
+}
+
 
 .books {
     background-image: url(book.png);
@@ -245,5 +257,10 @@ ol {
         height: 28px;
         width: 32px;
     }
+    h1{
+        padding-left: 1.2em;
+    }
+    
+
     
 }
