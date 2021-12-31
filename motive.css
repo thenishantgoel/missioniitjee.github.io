@@ -207,6 +207,11 @@ ol {
         padding-top: 1.8em;
 
     }
+    .itemsSYLLABUS{
+        height: 0.9em;
+        padding-top: 1.8em;
+
+    }
 }
 @media screen and (max-width:740px) and (min-width:650px){
     *{  
@@ -217,6 +222,13 @@ ol {
         padding-top: 1.8em;
 
     }
+    .itemsSYLLABUS
+    {
+        height: 0.8em;
+        padding-top: 1.8em;
+
+    }
+
 }
 @media screen and (max-width:650px) and (min-width:600px){
     *{  
