@@ -192,8 +192,9 @@ ol {
     padding-top: 35px;
     line-height: 1.5;
     font-weight: lighter;
-    margin-left: 8px;
+    margin-left: 0px;
     margin-bottom:1.5em;
+    padding-left:29px;
     font-size: 20px;
     /* padding-bottom:1em; */
 }
@@ -224,7 +225,10 @@ ol {
     .items{
         height: 0.7em;
         padding-top: 1.8em;
-
+    }
+    .itemsSYLLABUS{
+        height: 0.7em;
+        padding-top: 1.8em;
     }
 }
 @media screen and (max-width:600px) and (min-width:300px){
@@ -232,6 +236,11 @@ ol {
         font-size:.95em ;
     }
     .items{
+        height: 0.9em;
+        padding-top: 1.8em;
+
+    }
+    .itemsSYLLABUS{
         height: 0.9em;
         padding-top: 1.8em;
 
